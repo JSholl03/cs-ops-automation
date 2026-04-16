@@ -1,6 +1,9 @@
 # 🎫 AI Ticket Triage for Customer Success
 Automated support ticket classification, churn alerting & VoC logging — powered by n8n + GPT-4o
 
+<img width="1606" height="604" alt="image" src="https://github.com/user-attachments/assets/c7e918c6-8715-47ac-98ad-21f82c911be3" />
+
+
 ## 📌 Overview
 This n8n workflow automates the triage of incoming customer support emails for a Customer Success team. Every 5 minutes, it monitors a Gmail inbox, uses GPT-4o to intelligently classify each ticket, logs structured data to a Google Sheet for VoC analysis, and instantly fires a churn-risk alert email when a high-risk ticket is detected.
 Built to reduce manual triage time, surface churn signals early, and feed clean, structured data into a VoC reporting pipeline — without a single human having to read and tag a ticket.
